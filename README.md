@@ -1,2 +1,2 @@
 # spring-boot-dependencies-for-caching
- pom.xml for caching spring-boot-dependencies
+ This pom.xml is intended to be used for caching spring-boot-dependencies that are on Maven Central onto private repositories that are behind firewalls
