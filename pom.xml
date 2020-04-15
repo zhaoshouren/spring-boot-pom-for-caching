@@ -1205,10 +1205,12 @@
             <artifactId>netty-tcnative-boringssl-static</artifactId>
         </dependency>
         <!--reactor-bom start-->
-        <!-- <dependency>
+        <!-- duplicate entry 
+        <dependency>
             <groupId>org.reactivestreams</groupId>
             <artifactId>reactive-streams</artifactId>
-        </dependency> -->
+        </dependency> 
+        -->
         <dependency>
             <groupId>io.projectreactor</groupId>
             <artifactId>reactor-core</artifactId>
@@ -1916,10 +1918,12 @@
             <artifactId>log4j-spring-cloud-config-client</artifactId>
         </dependency>
         <!--log4j-bom end-->
-        <!-- duplicate entry <dependency>
+        <!-- duplicate entry 
+        <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-to-slf4j</artifactId>
-        </dependency> -->
+        </dependency> 
+        -->
         <dependency>
             <groupId>org.apache.solr</groupId>
             <artifactId>solr-analysis-extras</artifactId>
@@ -3886,10 +3890,12 @@
             <artifactId>spring-integration-zookeeper</artifactId>
         </dependency>
         <!--spring-integration-bom end-->
-        <!-- <dependency>
+        <!-- duplicate entry
+        <dependency>
             <groupId>org.springframework.integration</groupId>
             <artifactId>spring-integration-http</artifactId>
-        </dependency> -->
+        </dependency> 
+        -->
         <dependency>
             <groupId>org.springframework.kafka</groupId>
             <artifactId>spring-kafka</artifactId>
