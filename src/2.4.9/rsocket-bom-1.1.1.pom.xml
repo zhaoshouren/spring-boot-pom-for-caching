@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <!-- This module was also published with a richer model, Gradle metadata,  -->
-  <!-- which should be used instead. Do not delete the following line which  -->
-  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
-  <!-- that they should prefer consuming it instead. -->
-  <!-- do_not_remove: published-with-gradle-metadata -->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.rsocket</groupId>
   <artifactId>rsocket-bom</artifactId>
-  <version>1.0.0-RC6</version>
+  <version>1.1.1</version>
   <packaging>pom</packaging>
   <name>rsocket-bom</name>
   <description>RSocket Java Bill of materials.</description>
@@ -22,11 +17,6 @@
   </licenses>
   <developers>
     <developer>
-      <id>robertroeser</id>
-      <name>Robert Roeser</name>
-      <email>robert@netifi.com</email>
-    </developer>
-    <developer>
       <id>rdegnan</id>
       <name>Ryland Degnan</name>
       <email>ryland@netifi.com</email>
@@ -39,12 +29,12 @@
     <developer>
       <id>OlegDokuka</id>
       <name>Oleh Dokuka</name>
-      <email>oleh@netifi.com</email>
+      <email>oleh.dokuka@icloud.com</email>
     </developer>
     <developer>
-      <id>mostroverkhov</id>
-      <name>Maksym Ostroverkhov</name>
-      <email>m.ostroverkhov@gmail.com</email>
+      <id>rstoyanchev</id>
+      <name>Rossen Stoyanchev</name>
+      <email>rstoyanchev@vmware.com</email>
     </developer>
   </developers>
   <scm>
@@ -57,32 +47,32 @@
       <dependency>
         <groupId>io.rsocket</groupId>
         <artifactId>rsocket-core</artifactId>
-        <version>1.0.0-RC6</version>
+        <version>1.1.1</version>
       </dependency>
       <dependency>
         <groupId>io.rsocket</groupId>
         <artifactId>rsocket-load-balancer</artifactId>
-        <version>1.0.0-RC6</version>
+        <version>1.1.1</version>
       </dependency>
       <dependency>
         <groupId>io.rsocket</groupId>
         <artifactId>rsocket-micrometer</artifactId>
-        <version>1.0.0-RC6</version>
+        <version>1.1.1</version>
       </dependency>
       <dependency>
         <groupId>io.rsocket</groupId>
         <artifactId>rsocket-test</artifactId>
-        <version>1.0.0-RC6</version>
+        <version>1.1.1</version>
       </dependency>
       <dependency>
         <groupId>io.rsocket</groupId>
         <artifactId>rsocket-transport-local</artifactId>
-        <version>1.0.0-RC6</version>
+        <version>1.1.1</version>
       </dependency>
       <dependency>
         <groupId>io.rsocket</groupId>
         <artifactId>rsocket-transport-netty</artifactId>
-        <version>1.0.0-RC6</version>
+        <version>1.1.1</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
